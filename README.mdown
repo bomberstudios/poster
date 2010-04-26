@@ -1,0 +1,3 @@
+# Poster, an anonymous image hosting server
+
+Poster is a weekend project, used for testing the amazing [FWXHR](http://johndunning.com/fireworks/about/FWXHR) extension by [John Dunning](http://johndunning.com/)
