@@ -1,3 +1,6 @@
 public/*.png
 public/*.jpg
 public/*.gif
+public/system/*.png
+public/system/*.jpg
+public/system/*.gif
