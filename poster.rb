@@ -1,6 +1,6 @@
 require 'rubygems'
 
-if ENV['RACK_ENV']
+if ENV['RACK_ENV'] && ENV['RACK_ENV'] == 'production'
   require "#{ENV['HOME']}/.gems/gems/sinatra-1.0/lib/sinatra"
 else
   require 'sinatra'
@@ -32,6 +32,7 @@ get '/' do
 end
 
 post '/' do
+  p params.inspect
   f = params[:file]
   filename = params[:pageName] ? params[:pageName] + "." + filetype(f[:type]) : f[:filename]
   filename = now + "-" + filename
