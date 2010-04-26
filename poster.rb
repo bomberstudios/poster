@@ -1,5 +1,10 @@
 require 'rubygems'
-require "#{ENV['HOME']}/.gems/gems/sinatra-1.0/lib/sinatra"
+
+if ENV['RACK_ENV']
+  require "#{ENV['HOME']}/.gems/gems/sinatra-1.0/lib/sinatra"
+else
+  require 'sinatra'
+end
 
 def url
   local = env["rack.url_scheme"] + "://" + env["HTTP_HOST"]
