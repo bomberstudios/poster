@@ -1,3 +1,17 @@
 # Poster, an anonymous image hosting server
 
-Poster is a weekend project, used for testing the amazing [FWXHR](http://johndunning.com/fireworks/about/FWXHR) extension by [John Dunning](http://johndunning.com/)
+Poster is a weekend project, used for testing the amazing [FWXHR](http://johndunning.com/fireworks/about/FWXHR) extension by [John Dunning](http://johndunning.com/).
+
+## What it does
+
+Have you ever been working on a design project and thought: "hey, I wish I could click a button and get back a public URL with the image I could send by IM or Email".
+
+Well, Poster does that.
+
+Poster is a web service + Fireworks plugin that lets you upload your current Fireworks document (the current page, actually) to the web. When you post an image, it will copy the resulting URL to your clipboard.
+
+
+## Disclaimer
+
+This is an alpha quality toy. Thus, it makes no attempt to be private and/or secure. Everything is public by default, there are no user accounts, and the only thing it does is host an image. You cannot delete, edit or update an image (yet). This is a **feature**, not a bug.
+
