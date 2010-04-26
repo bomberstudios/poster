@@ -8,7 +8,7 @@ Have you ever been working on a design project and thought: "hey, I wish I could
 
 Well, Poster does that.
 
-Poster is a web service + Fireworks plugin that lets you upload your current Fireworks document (the current page, actually) to the web. When you post an image, it will copy the resulting URL to your clipboard.
+Poster is a web service + [Fireworks plugin](http://github.com/bomberstudios/poster-plugin-fireworks) that lets you upload your current Fireworks document (the current page, actually) to the web. When you post an image, it will copy the resulting URL to your clipboard.
 
 
 ## Disclaimer
