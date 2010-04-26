@@ -47,3 +47,7 @@ post '/' do
     "You can only upload images!"
   end
 end
+
+get '/system' do
+  erb :error
+end
