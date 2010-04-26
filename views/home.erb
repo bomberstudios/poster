@@ -1,7 +1,11 @@
 <%= "sinatraposter 1.0 - #{now} - running on #{url}" %>
 
+<p>
 <form action="/" method="post" accept-charset="utf-8">
   <input type="file" name="file" value="" id="file" />
 
   <p><input type="submit" value="Continue &rarr;" /></p>
 </form>
+</p>
+
+<p>hosting <%= Dir.glob("public/*.png").size %> images</p>
