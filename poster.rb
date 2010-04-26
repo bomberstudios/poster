@@ -48,6 +48,8 @@ post '/' do
   end
 end
 
-get '/system' do
-  erb :error
+['/system', '/system/'].each do |path|
+  get path do
+    erb :error
+  end
 end
