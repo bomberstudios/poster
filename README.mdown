@@ -15,3 +15,8 @@ Poster is a web service + [Fireworks plugin](http://github.com/bomberstudios/pos
 
 This is an alpha quality toy. Thus, it makes no attempt to be private and/or secure. Everything is public by default, there are no user accounts, and the only thing it does is host an image. You cannot delete, edit or update an image (yet). This is a **feature**, not a bug.
 
+
+## Roadmap
+
+- Some features :)
+
