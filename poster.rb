@@ -32,17 +32,16 @@ get '/' do
 end
 
 post '/' do
-  p params.inspect
   f = params[:file]
   filename = params[:pageName] ? params[:pageName] + "." + filetype(f[:type]) : f[:filename]
   filename = now + "-" + filename
   filename.gsub!(' ','_')
   
   if is_image(f[:filename])
-    File.open("#{Dir.pwd}/public/#{filename}","w") do |t|
+    File.open("#{Dir.pwd}/public/system/#{filename}","w") do |t|
       t << f[:tempfile].read
     end
-    "#{url}/#{filename}"
+    "#{url}/system/#{filename}"
   else
     status 403
     "You can only upload images!"
